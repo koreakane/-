@@ -138,6 +138,45 @@
   width: 100vw;
   height: 100vh;
   background-color: black;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title > h1 {
+  color: white;
+  z-index: 5;
+}
+
+.title > p {
+  color: white;
+  z-index: 5;
+}
+
+.title > span {
+  font-size: 6px;
+  color: white;
+  z-index: 5;
+}
+
+.github {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+#github {
+  width: 40px;
+  height: 40px;
 }
 
 .door {
@@ -167,37 +206,37 @@
 .doorPanel:nth-child(1) {
   background: linear-gradient(#ffffff, #c5b2ff, #151515);
   transform: rotateY(0deg);
-  animation: door1 30s linear infinite;
+  animation: door1 10s linear infinite;
 }
 
 .doorPanel:nth-child(2) {
   background: linear-gradient(#ffffff, #f0a957, #151515);
   transform: rotateY(60deg);
-  animation: door2 30s linear infinite;
+  animation: door2 10s linear infinite;
 }
 
 .doorPanel:nth-child(3) {
   background: linear-gradient(#ffffff, #000080, #151515);
   transform: rotateY(120deg);
-  animation: door3 30s linear infinite;
+  animation: door3 10s linear infinite;
 }
 
 .doorPanel:nth-child(4) {
   background: linear-gradient(#ffffff, #800080, #151515);
   transform: rotateY(180deg);
-  animation: door4_1 30s linear infinite;
+  animation: door4_1 10s linear infinite;
 }
 
 .doorPanel:nth-child(5) {
   background: linear-gradient(#ffffff, #467ec6, #151515);
   transform: rotateY(240deg);
-  animation: door5 30s linear infinite;
+  animation: door5 10s linear infinite;
 }
 
 .doorPanel:nth-child(6) {
   background: linear-gradient(#ffffff, #85ac20, #151515);
   transform: rotateY(300deg);
-  animation: door6 30s linear infinite;
+  animation: door6 10s linear infinite;
 }
 
 /* backPanel */
@@ -216,37 +255,37 @@
 .doorBackPanel:nth-child(7) {
   background: linear-gradient(#ffffff, #85ac20, #151515);
   transform: rotateY(0deg);
-  animation: door1 30s linear infinite;
+  animation: door1 10s linear infinite;
 }
 
 .doorBackPanel:nth-child(8) {
   background: linear-gradient(#ffffff, #c5b2ff, #151515);
   transform: rotateY(60deg);
-  animation: door2 30s linear infinite;
+  animation: door2 10s linear infinite;
 }
 
 .doorBackPanel:nth-child(9) {
   background: linear-gradient(#ffffff, #f0a957, #151515);
   transform: rotateY(120deg);
-  animation: door3 30s linear infinite;
+  animation: door3 10s linear infinite;
 }
 
 .doorBackPanel:nth-child(10) {
   background: linear-gradient(#ffffff, #000080, #151515);
   transform: rotateY(180deg);
-  animation: door4 30s linear infinite;
+  animation: door4 10s linear infinite;
 }
 
 .doorBackPanel:nth-child(11) {
   background: linear-gradient(#ffffff, #800080, #151515);
   transform: rotateY(240deg);
-  animation: door5 30s linear infinite;
+  animation: door5 10s linear infinite;
 }
 
 .doorBackPanel:nth-child(12) {
   background: linear-gradient(#ffffff, #467ec6, #151515);
   transform: rotateY(300deg);
-  animation: door6 30s linear infinite;
+  animation: door6 10s linear infinite;
 }
 
 /* content */
@@ -271,37 +310,37 @@
 .doorContent:nth-child(13) {
   filter: drop-shadow(0 -5px 3px #467ec6);
   transform: rotateY(0deg) translateZ(10.4em);
-  animation: content1 30s linear infinite;
+  animation: content1 10s linear infinite;
 }
 
 .doorContent:nth-child(14) {
   filter: drop-shadow(0 -5px 3px #85ac20);
   transform: rotateY(60deg) translateZ(10.4em);
-  animation: content2 30s linear infinite;
+  animation: content2 10s linear infinite;
 }
 
 .doorContent:nth-child(15) {
   filter: drop-shadow(0 -5px 3px #c5b2ff);
   transform: rotateY(120deg) translateZ(10.4em);
-  animation: content3 30s linear infinite;
+  animation: content3 10s linear infinite;
 }
 
 .doorContent:nth-child(16) {
   filter: drop-shadow(0 -5px 3px #f0a957);
   transform: rotateY(180deg) translateZ(10.4em);
-  animation: content4 30s linear infinite;
+  animation: content4 10s linear infinite;
 }
 
 .doorContent:nth-child(17) {
   filter: drop-shadow(0 -5px 3px #000080);
   transform: rotateY(240deg) translateZ(10.4em);
-  animation: content5 30s linear infinite;
+  animation: content5 10s linear infinite;
 }
 
 .doorContent:nth-child(18) {
   filter: drop-shadow(0 -5px 3px #800080);
   transform: rotateY(300deg) translateZ(10.4em);
-  animation: content6 30s linear infinite;
+  animation: content6 10s linear infinite;
 }
 
 .idol {
